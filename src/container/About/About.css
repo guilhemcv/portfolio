@@ -4,10 +4,12 @@
 }
 
 .about-titre {
+  width: 200px;
   color: White;
   font-size: 30px;
   text-align: center;
-  margin: 0 auto;
+  margin: 50px auto;
+  border-bottom: 1px solid white;
 }
 
 .cercle {

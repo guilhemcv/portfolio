@@ -5,10 +5,6 @@
 }
 
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 #menuToggle {
   display: block;
@@ -97,8 +93,17 @@ body {
   color: white;
   opacity: 1;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   width: 200px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
 }
 
 #menu li:hover:nth-child(even) {

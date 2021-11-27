@@ -5,7 +5,7 @@ import idea from "../../assets/images/idea.png";
 export function About() {
   return (
     <div className="about">
-      <h1 className="about-titre">A Propos</h1>
+      <p className="about-titre">A PROPOS</p>
       <div className="cercle"><img className="logo-cercle" src={idea} alt={idea} /></div>
     </div>
   )
