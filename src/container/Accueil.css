@@ -5,7 +5,7 @@
 .accueil {
   width: 100vw;
   height: 100vh;
-	background: linear-gradient(253deg, #3A1C71, #D76D77, #FFAF7B);
+	background: linear-gradient(253deg, #232526, #414345, #232526);
     background-size: 300% 300%;
     -webkit-animation: Background 15s ease infinite;
     -moz-animation: Background 15s ease infinite;
@@ -64,7 +64,7 @@
 
 .accueil-nom {
   font-family: 'Happy Monkey', cursive;
-  margin: 30vh auto 30px auto;
+  margin: 30px auto 30px auto;
   color: white;
 }
 .accueil-statut {
@@ -74,6 +74,16 @@
 
 .accueil-presentation {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accueil-avatar {
+  width: 300px;
+  margin-top: 30px;
+  border-radius: 150px;
 }
 
 .accueil-bouton {
@@ -131,5 +141,41 @@
 /**
  * ----------------------------------------
  * end animation
+ * ----------------------------------------
+ */
+
+ .scale-up-center {
+	-webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+	        animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/**
+ * ----------------------------------------
+ * animation end
  * ----------------------------------------
  */
