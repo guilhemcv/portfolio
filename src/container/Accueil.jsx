@@ -1,23 +1,30 @@
 import React from 'react';
 import { Header } from '../components/Header/Header';
 import './Accueil.css';
+import avatar from '../assets/images/avatar4.png';
 
 export function Accueil() {
   return (
-    <div className="accueil">
+    <div>
       <Header />
-      <div className="accueil-presentation">
-        <h1 className="accueil-nom tracking-in-contract">
-          Bonjour,
-          <span className="accueil-statut">
-            {' '}
-            Je m'appelle Guilhem SEYVET
-            <br />
-            <br /> Je suis un développeur web full-stack
-          </span>
-        </h1>
+      <div className="accueil">
+        <p id="head1" className="header tracking-in-expand-fwd">
+          Bonjour, je m'appelle Guilhem SEYVET
+        </p>
+        <p id="head2" className="header tracking-in-expand-fwd2">
+          Je suis développeur web full-stack
+        </p>
+        <button type="button" className="text-focus-in">Continue</button>
+        <div class="light x1"></div>
+        <div class="light x2"></div>
+        <div class="light x3"></div>
+        <div class="light x4"></div>
+        <div class="light x5"></div>
+        <div class="light x6"></div>
+        <div class="light x7"></div>
+        <div class="light x8"></div>
+        <div class="light x9"></div>
       </div>
-      <button type="button" className="accueil-bouton">Plus d'informations</button>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import "./Burger.css";
 
 export function Burger() {
   return (
-    <div>
+    <div className="burger">
       <nav role="navigation">
         <div id="menuToggle">
           <input type="checkbox" />
@@ -12,10 +12,10 @@ export function Burger() {
           <span></span>
           <ul id="menu">
             <li>Home</li>
-            <li>About</li>
-            <li>Info</li>
+            <li>A propos de moi</li>
+            <li>Mon CV</li>
+            <li>Mon Portfolio</li>
             <li>Contact</li>
-            <li>Show me more</li>
           </ul>
         </div>
       </nav>
