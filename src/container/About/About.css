@@ -2,3 +2,26 @@
   width: 100vw;
   height: 100vh;
 }
+
+.about-titre {
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cercle {
+  margin: 100px auto 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 75px;
+}
+
+.logo-cercle {
+  width: 60px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+}
