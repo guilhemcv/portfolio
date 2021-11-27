@@ -1,12 +1,9 @@
 import React from 'react';
-import { Header } from '../components/Header/Header';
 import './Accueil.css';
-import avatar from '../assets/images/avatar4.png';
 
 export function Accueil() {
   return (
     <div>
-      <Header />
       <div className="accueil">
         <p id="head1" className="header tracking-in-expand-fwd">
           Bonjour, je m'appelle Guilhem SEYVET
