@@ -1,6 +1,9 @@
 .polygon-component {
   width: 300px;
+}
 
+.polygon-component:hover {
+  transform: scale(1.1);
 }
 
 
