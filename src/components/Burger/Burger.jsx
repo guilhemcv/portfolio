@@ -1,18 +1,31 @@
 import React from 'react';
-import "./Burger.css";
+import './Burger.css';
+import { Link } from 'react-router-dom';
+function Burger() {
+  const [isChecked, setIsChecked] = React.useState('');
+  function handleIsChecked() {
+    if (isChecked === '') {
+      setIsChecked('checked');
+    } else {
+      setIsChecked('');
+    }
+  }
 
-export function Burger() {
   return (
     <div className="burger">
       <nav role="navigation">
-        <div id="menuToggle">
-          <input type="checkbox" />
+        <div id="menuToggle" onClick={handleIsChecked}>
+          <input type="checkbox" checked={isChecked} readOnly={true} />
           <span></span>
           <span></span>
           <span></span>
           <ul id="menu">
-            <li>Home</li>
-            <li>A propos de moi</li>
+            <li>
+              <Link to="/" onClick={handleIsChecked}>Home</Link>
+            </li>
+            <li>
+              <Link to="/about" onClick={handleIsChecked}>A propos de moi</Link>
+            </li>
             <li>Mon CV</li>
             <li>Mon Portfolio</li>
             <li>Contact</li>
@@ -22,3 +35,5 @@ export function Burger() {
     </div>
   );
 }
+
+export default Burger;

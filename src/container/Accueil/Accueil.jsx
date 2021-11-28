@@ -1,20 +1,21 @@
 import React from 'react';
-import { Header } from '../components/Header/Header';
+import { useNavigate } from "react-router-dom";
 import './Accueil.css';
-import avatar from '../assets/images/avatar4.png';
 
 export function Accueil() {
+  
+    const redirect = useNavigate();
+
   return (
     <div>
-      <Header />
       <div className="accueil">
         <p id="head1" className="header tracking-in-expand-fwd">
-          Bonjour, je m'appelle Guilhem SEYVET
+          Hello ! <br /><br /> je m'appelle Guilhem SEYVET
         </p>
         <p id="head2" className="header tracking-in-expand-fwd2">
           Je suis développeur web full-stack
         </p>
-        <button type="button" className="text-focus-in">Continue</button>
+        <button type="button" className="text-focus-in" onClick={() => redirect("/about")}>Continue</button>
         <div class="light x1"></div>
         <div class="light x2"></div>
         <div class="light x3"></div>

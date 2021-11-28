@@ -1,0 +1,204 @@
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about-haut {
+  height: auto;
+}
+
+.about-titre {
+  width: 200px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 60px auto;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.softskills {
+  width: 200px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 60px auto 100px auto;
+  border-bottom: 1px solid white;
+}
+
+.softskills2 {
+  width: 200px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 160px auto 100px auto;
+  border-bottom: 1px solid white;
+}
+
+.softskills3 {
+  width: 300px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 160px auto 100px auto;
+  border-bottom: 1px solid white;
+}
+
+
+
+.cercle {
+  margin: 100px auto 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 75px;
+}
+
+.logo-cercle {
+  width: 60px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.skills {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.circleprogress {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-percent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.text-skill {
+  color: white;
+  font-weight: bold;
+}
+
+.About-middle {
+  height: 100vh;
+}
+
+.skills-card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.photo-descri {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 600px;
+  width: 100%;
+}
+
+.presentation {
+  color: white;
+  width: 400px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.logo-reseau {
+  width: 30px;
+  margin-right: 20px;
+}
+.logo-reseau1 {
+  width: 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.reseau {
+  display: flex;
+  justify-content: center;
+}
+
+.link-reseau:hover {
+  transform: scale(1.2);
+}
+
+.parallax {
+  width: 600px;
+  height: 600px;
+
+}
+
+@media screen and (max-width:1200px) {
+  .photo-descri {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 40px auto;
+  }
+  .presentation {
+    margin-top: 100px;
+  }
+
+}
+
+
+
+@media screen and (max-width:900px) {
+  .about-haut {
+    height: auto;
+  }
+  .about-bas {
+    text-align: center;
+  }
+
+  .about-middle {
+    height: auto;
+  }
+  .parallax {
+    width: 400px;
+    height: 400px;
+  }
+  .presentation {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .softskills {
+    margin: 10px auto;
+  }
+
+  .skill-percent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-card {
+    margin: 30px auto;
+  }
+  .parallax {
+    width: 90%;
+  }
+  .presentation {
+    margin: 100px auto;
+    width: 90%;
+  }
+  
+}
+  

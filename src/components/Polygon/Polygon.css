@@ -1,0 +1,22 @@
+.polygon-component {
+  width: 200px;
+}
+
+
+
+.polygon {
+  height: 100px;
+}
+
+.polygon-descri {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .polygon-component {
+    margin: 10px auto;
+  }
+}
+  
