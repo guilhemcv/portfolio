@@ -1,0 +1,15 @@
+.polygon-component {
+  width: 300px;
+
+}
+
+
+.polygon {
+  height: 200px;
+}
+
+.polygon-descri {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}

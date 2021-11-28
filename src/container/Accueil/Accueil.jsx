@@ -1,7 +1,11 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import './Accueil.css';
 
 export function Accueil() {
+  
+    const redirect = useNavigate();
+
   return (
     <div>
       <div className="accueil">
@@ -11,7 +15,7 @@ export function Accueil() {
         <p id="head2" className="header tracking-in-expand-fwd2">
           Je suis développeur web full-stack
         </p>
-        <button type="button" className="text-focus-in">Continue</button>
+        <button type="button" className="text-focus-in" onClick={() => redirect("/about")}>Continue</button>
         <div class="light x1"></div>
         <div class="light x2"></div>
         <div class="light x3"></div>
