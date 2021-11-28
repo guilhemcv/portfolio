@@ -1,6 +1,6 @@
 .about {
-  width: 100vw;
-  height: 2000px;
+  width: 100%;
+  height: auto;
 }
 
 .about-haut {
@@ -28,6 +28,15 @@
 
 .softskills2 {
   width: 200px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 160px auto 100px auto;
+  border-bottom: 1px solid white;
+}
+
+.softskills3 {
+  width: 300px;
   color: White;
   font-size: 30px;
   text-align: center;
@@ -90,6 +99,48 @@
   align-items: center;
 }
 
+.photo-descri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 600px;
+}
+
+.presentation {
+  color: white;
+  width: 400px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.logo-reseau {
+  width: 30px;
+  margin-right: 20px;
+}
+.logo-reseau1 {
+  width: 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.reseau {
+  display: flex;
+  justify-content: center;
+}
+
+.link-reseau:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width:1200px) {
+  .photo-descri {
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+
+
 @media screen and (max-width:900px) {
   .about-haut {
     height: auto;
@@ -97,6 +148,10 @@
 
   .about-middle {
     height: auto;
+  }
+  .parallax {
+    height: 200px;
+    width: 200px;
   }
 }
 

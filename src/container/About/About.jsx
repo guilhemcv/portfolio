@@ -1,4 +1,5 @@
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Parallax } from 'react-parallax';
 import 'animate.css/animate.min.css';
 import './About.css';
 import Polygon from '../../components/Polygon/Polygon';
@@ -9,15 +10,15 @@ import react from '../../assets/images/react.png';
 import html from '../../assets/images/html.png';
 import git from '../../assets/images/git.png';
 import mysql from '../../assets/images/mysql.png';
+import guilhem from '../../assets/images/portrait.jpg';
+import github from '../../assets/images/github.png';
+import linkedin from '../../assets/images/linkedin.png';
 
 export function About() {
   return (
     <div className="about">
       <div className="about-haut">
-        <ScrollAnimation
-          animateIn="animate__fadeIn"
-          animateOnce={true}
-        >
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
           <p className="about-titre">A PROPOS</p>
           <p className="softskills">Soft Skills</p>
         </ScrollAnimation>
@@ -28,10 +29,7 @@ export function About() {
         </div>
       </div>
       <div className="about-middle">
-        <ScrollAnimation
-          animateIn="animate__zoomIn"
-          animateOnce={true}
-        >
+        <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
           <p className="softskills2">Skills</p>
         </ScrollAnimation>
         <div className="skill-percent">
@@ -120,6 +118,46 @@ export function About() {
               <img width="50px" src={mysql} alt={mysql} />
             </div>
           </ScrollAnimation>
+        </div>
+      </div>
+      <div className="about-bas">
+        <p className="softskills3">Un mot sur moi</p>
+        <div className="photo-descri">
+          <Parallax
+            className="parallax"
+            bgImage={guilhem}
+            strength={200}
+            style={{
+              height: 500,
+              width: 500,
+              marginLeft: '50px',
+              marginRight: '50px',
+              paddingTop: '60px',
+            }}
+          />
+          <div className="pres-reseau">
+            <p className="presentation">
+              Après plusieurs années d'expérience dans le commerce et en agence
+              de voyages, j'ai souhaité me reconvertir dans la création et la
+              conception de sites internet. Une formation certifiante ainsi
+              qu'une grande volonté m'ont permis d'acquérir rapidement toutes
+              les connaissances techniques requises et de les appliquer dans ce
+              cadre, sur des projets professionnels concluants. Je recherche à
+              présent à mettre mes nouvelles compétences et toute mon expérience
+              au service d'une équipe.
+            </p>
+            <span className="reseau">
+              <a className="link-reseau"
+                href="https://www.linkedin.com/in/guilhem-seyvet/"
+                target="_blank"
+              >
+                <img className="logo-reseau" src={linkedin} alt={linkedin} />
+              </a>
+              <a className="link-reseau" href="https://github.com/guilhemcv" target="_blank">
+                <img className="logo-reseau1" src={github} alt={github} />
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
