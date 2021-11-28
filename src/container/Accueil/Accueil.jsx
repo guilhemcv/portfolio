@@ -10,7 +10,7 @@ export function Accueil() {
     <div>
       <div className="accueil">
         <p id="head1" className="header tracking-in-expand-fwd">
-          Bonjour, je m'appelle Guilhem SEYVET
+          Hello ! <br /><br /> je m'appelle Guilhem SEYVET
         </p>
         <p id="head2" className="header tracking-in-expand-fwd2">
           Je suis développeur web full-stack
