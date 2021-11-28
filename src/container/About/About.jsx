@@ -123,41 +123,47 @@ export function About() {
       <div className="about-bas">
         <p className="softskills3">Un mot sur moi</p>
         <div className="photo-descri">
+          <span className="parallax">
           <Parallax
-            className="parallax"
             bgImage={guilhem}
             strength={200}
             style={{
-              height: 500,
-              width: 500,
-              marginLeft: '50px',
-              marginRight: '50px',
+              height: "100%",
+              width: "100%",
               paddingTop: '60px',
             }}
           />
-          <div className="pres-reseau">
-            <p className="presentation">
-              Après plusieurs années d'expérience dans le commerce et en agence
-              de voyages, j'ai souhaité me reconvertir dans la création et la
-              conception de sites internet. Une formation certifiante ainsi
-              qu'une grande volonté m'ont permis d'acquérir rapidement toutes
-              les connaissances techniques requises et de les appliquer dans ce
-              cadre, sur des projets professionnels concluants. Je recherche à
-              présent à mettre mes nouvelles compétences et toute mon expérience
-              au service d'une équipe.
-            </p>
-            <span className="reseau">
-              <a className="link-reseau"
-                href="https://www.linkedin.com/in/guilhem-seyvet/"
-                target="_blank"
-              >
-                <img className="logo-reseau" src={linkedin} alt={linkedin} />
-              </a>
-              <a className="link-reseau" href="https://github.com/guilhemcv" target="_blank">
-                <img className="logo-reseau1" src={github} alt={github} />
-              </a>
-            </span>
-          </div>
+          </span>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="pres-reseau">
+              <p className="presentation">
+                Après plusieurs années d'expérience dans le commerce et en
+                agence de voyages, j'ai souhaité me reconvertir dans la création
+                et la conception de sites internet. Une formation certifiante
+                ainsi qu'une grande volonté m'ont permis d'acquérir rapidement
+                toutes les connaissances techniques requises et de les appliquer
+                dans ce cadre, sur des projets professionnels concluants. Je
+                recherche à présent à mettre mes nouvelles compétences et toute
+                mon expérience au service d'une équipe.
+              </p>
+              <span className="reseau">
+                <a
+                  className="link-reseau"
+                  href="https://www.linkedin.com/in/guilhem-seyvet/"
+                  target="_blank"
+                >
+                  <img className="logo-reseau" src={linkedin} alt={linkedin} />
+                </a>
+                <a
+                  className="link-reseau"
+                  href="https://github.com/guilhemcv"
+                  target="_blank"
+                >
+                  <img className="logo-reseau1" src={github} alt={github} />
+                </a>
+              </span>
+            </div>
+          </ScrollAnimation>
         </div>
       </div>
     </div>

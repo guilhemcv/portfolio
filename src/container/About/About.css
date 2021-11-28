@@ -101,10 +101,11 @@
 
 .photo-descri {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 30px;
   height: 600px;
+  width: 100%;
 }
 
 .presentation {
@@ -132,11 +133,24 @@
   transform: scale(1.2);
 }
 
+.parallax {
+  width: 600px;
+  height: 600px;
+
+}
+
 @media screen and (max-width:1200px) {
   .photo-descri {
     height: auto;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 40px auto;
   }
+  .presentation {
+    margin-top: 100px;
+  }
+
 }
 
 
@@ -145,13 +159,19 @@
   .about-haut {
     height: auto;
   }
+  .about-bas {
+    text-align: center;
+  }
 
   .about-middle {
     height: auto;
   }
   .parallax {
-    height: 200px;
-    width: 200px;
+    width: 400px;
+    height: 400px;
+  }
+  .presentation {
+    margin-top: 100px;
   }
 }
 
@@ -171,6 +191,13 @@
   }
   .skills-card {
     margin: 30px auto;
+  }
+  .parallax {
+    width: 90%;
+  }
+  .presentation {
+    margin: 100px auto;
+    width: 90%;
   }
   
 }
