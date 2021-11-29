@@ -1,0 +1,108 @@
+
+.curriculum {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  width: 800px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+} 
+
+.titre-cv {
+  width: 500px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 60px auto;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.titre-cv2 {
+  width: 300px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  margin: 60px auto;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.card {
+  color: #D0D2D6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 700px;
+  justify-content: center;
+}
+
+.card2 {
+  color: #D0D2D6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 750px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.separate {
+  margin: 0 auto;
+  width: 600px;
+  border-top: 1px dotted #D0D2D6;
+  background-color: #D0D2D6 ;
+}
+
+.trait {
+  width: 300px;
+  display: flex;
+  margin-top: 10px;
+}
+.trait2 {
+  width: 300px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.imgcard {
+  width: 300px;
+  height: auto;
+}
+
+
+.cv-titre {
+  font-size: 35px;
+  color: #D0D2D6;
+  font-weight: bold;
+}
+
+.cv-date {
+  font-size: 30px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  margin: 10px;
+  width: 90%;
+  margin : 0 auto;
+  color: white;
+  font-size: 25px;
+}
+
+.front-titre {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-style: italic;
+}
+
+
+@media only screen and (hover: none){
+  
+  
+}

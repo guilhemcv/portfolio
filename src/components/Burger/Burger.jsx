@@ -26,7 +26,9 @@ function Burger() {
             <li>
               <Link to="/about" onClick={handleIsChecked}>A propos de moi</Link>
             </li>
-            <li>Mon CV</li>
+            <li>
+              <Link to="/cv" onClick={handleIsChecked}>Mon CV</Link>
+            </li>
             <li>Mon Portfolio</li>
             <li>Contact</li>
           </ul>
