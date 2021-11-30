@@ -15,7 +15,7 @@ export function Accueil() {
         <p id="head2" className="header tracking-in-expand-fwd2">
           Je suis développeur web full-stack
         </p>
-        <button type="button" className="button-accueil text-focus-in" onClick={() => redirect("/about")}>Continue</button>
+        <button type="button" className="button-accueil text-focus-in" onClick={() => redirect("/about")}>Continuer</button>
         <div class="light x1"></div>
         <div class="light x2"></div>
         <div class="light x3"></div>
