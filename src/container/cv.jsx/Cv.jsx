@@ -3,6 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import './Cv.css';
 import DataCv from '../../data/datacv';
 import DataFormation from '../../data/DataFormation';
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 export function Cv() {
   return (
@@ -75,6 +76,7 @@ export function Cv() {
           </div>
         ))}
       </div>
+      <ScrollToTop />
     </div>
   );
 }

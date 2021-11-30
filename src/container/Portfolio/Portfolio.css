@@ -1,6 +1,6 @@
 .portfolio-card {
-  height: 500px;
-  width: 700px;
+  height: auto;
+  width: 70%;
   margin: 100px auto;
 
 }
@@ -11,7 +11,7 @@
 }
 
 .img-portfolio:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.8s;
 }
 
@@ -34,4 +34,14 @@
   margin: 60px auto;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
+}
+
+@media screen and (max-width: 600px) {
+ .text-portfolio {
+   font-size: 15px;
+ } 
+
+ .titre-portfolio {
+   font-size: 25px;
+ }
 }

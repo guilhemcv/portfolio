@@ -1,7 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
-import teamwork from '../../assets/images/teamwork.png';
 import './Polygon.css';
 
 function Polygon({ skill }) {

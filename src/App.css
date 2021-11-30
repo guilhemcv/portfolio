@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .App {
   text-align: center;
   height: auto;
@@ -7,4 +9,5 @@ body {
   margin: 0;
   font-weight: 100;
   background: radial-gradient(#243B55,#141E30);
+  font-family: 'Roboto', sans-serif;
 }

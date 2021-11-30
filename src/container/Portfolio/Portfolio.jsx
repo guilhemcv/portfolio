@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import portfoliodata from "../../data/portfoliodata";
 import ScrollAnimation from 'react-animate-on-scroll';
 import portfoliofrontend from "../../data/portfoliofrontend";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 
 function Portfolio() {
@@ -14,7 +15,7 @@ function Portfolio() {
       {portfoliodata.map((data) => 
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
       <div className="portfolio-card">
-      <a href={data.lien} target="_blank">
+      <a href={data.lien} target="_blank" rel="noreferrer">
       <img className="img-portfolio" src={data.image} alt={data.image} />
       </a>
       <p className="text-portfolio">{data.description}</p>
@@ -27,13 +28,14 @@ function Portfolio() {
       {portfoliofrontend.map((data) => 
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
       <div className="portfolio-card">
-      <a href={data.lien} target="_blank">
+      <a href={data.lien} target="_blank" rel="noreferrer">
       <img className="img-portfolio" src={data.image} alt={data.image} />
       </a>
       <p className="text-portfoliofront">{data.description}</p>
       </div>
       </ScrollAnimation>
       )}
+      <ScrollToTop />
     </div>
   )
 }

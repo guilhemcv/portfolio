@@ -122,5 +122,9 @@ li {
   .titre-cv2 {
     margin: 60px auto 0 auto;
   }
+  .imgcard {
+    width: 200px;
+    height: auto;
+  }
   
 }

@@ -13,6 +13,9 @@ import mysql from '../../assets/images/mysql.png';
 import guilhem from '../../assets/images/portrait.jpg';
 import github from '../../assets/images/github.png';
 import linkedin from '../../assets/images/linkedin.png';
+import node from '../../assets/images/node.png';
+import notion from '../../assets/images/notion.png';
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 export function About() {
   return (
@@ -69,6 +72,23 @@ export function About() {
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
+              <p className="text-skill">NodeJS / ExpressJS</p>
+              <span>
+                <CircleProgress
+                  percentage={70}
+                  strokeWidth={8}
+                  fontColor="white"
+                  fontFamily="roboto"
+                  fontSize="15px"
+                  primaryColor={['#77B263', '#3E863E']}
+                  width="100"
+                />
+              </span>
+              <img width="50px" src={node} alt={node} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
               <p className="text-skill">HTML / CSS</p>
               <span>
                 <CircleProgress
@@ -82,6 +102,23 @@ export function About() {
                 />
               </span>
               <img width="50px" src={html} alt={html} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
+              <p className="text-skill">MySQL</p>
+              <span>
+                <CircleProgress
+                  percentage={70}
+                  strokeWidth={8}
+                  fontColor="white"
+                  fontFamily="roboto"
+                  fontSize="15px"
+                  primaryColor={['#D3CCE3', '#E9E4F0']}
+                  width="100"
+                />
+              </span>
+              <img width="50px" src={mysql} alt={mysql} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
@@ -103,19 +140,19 @@ export function About() {
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">Express / MySQL</p>
+              <p className="text-skill">Notion</p>
               <span>
                 <CircleProgress
-                  percentage={60}
+                  percentage={95}
                   strokeWidth={8}
                   fontColor="white"
                   fontFamily="roboto"
                   fontSize="15px"
-                  primaryColor={['#D3CCE3', '#E9E4F0']}
+                  primaryColor={['white', 'white']}
                   width="100"
                 />
               </span>
-              <img width="50px" src={mysql} alt={mysql} />
+              <img width="50px" src={notion} alt={notion} />
             </div>
           </ScrollAnimation>
         </div>
@@ -152,14 +189,14 @@ export function About() {
                 <a
                   className="link-reseau"
                   href="https://www.linkedin.com/in/guilhem-seyvet/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <img className="logo-reseau" src={linkedin} alt={linkedin} />
                 </a>
                 <a
                   className="link-reseau"
                   href="https://github.com/guilhemcv"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <img className="logo-reseau1" src={github} alt={github} />
                 </a>
@@ -167,6 +204,7 @@ export function About() {
             </div>
           </ScrollAnimation>
         </div>
+        <ScrollToTop />
       </div>
     </div>
   );

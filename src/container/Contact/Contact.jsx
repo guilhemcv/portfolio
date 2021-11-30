@@ -3,10 +3,14 @@ import './Contact.css';
 import { useForm, ValidationError } from '@formspree/react';
 import github from '../../assets/images/github.png';
 import linkedin from '../../assets/images/linkedin.png';
-function Contact() {
+import thanks from '../../assets/images/thank-you.png';
+ function Contact() {
   const [state, handleSubmit] = useForm('xgerqakg');
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <div className="thankyou">
+      <p className="thanks">Merci pour votre message !</p>
+      <img src={thanks} alt={thanks} width="100px"/>
+    </div>
   }
   return (
     <div className="contact">
@@ -28,21 +32,21 @@ function Contact() {
           className="button-contact"
           disabled={state.submitting}
         >
-          Submit
+          Envoyer
         </button>
       </form>
       <span className="reseau">
         <a
           className="link-reseau"
           href="https://www.linkedin.com/in/guilhem-seyvet/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img className="logo-reseau" src={linkedin} alt={linkedin} />
         </a>
         <a
           className="link-reseau"
           href="https://github.com/guilhemcv"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img className="logo-reseau1" src={github} alt={github} />
         </a>
