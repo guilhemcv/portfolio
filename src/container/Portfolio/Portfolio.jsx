@@ -23,7 +23,7 @@ function Portfolio() {
       </ScrollAnimation>
       )}
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-      <p className="titre-portfolio">Projets persos et <br/> "Frontend Mentor"</p>
+      <p className="titre-portfolio">Side Projects</p>
       </ScrollAnimation>
       {portfoliofrontend.map((data) => 
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>

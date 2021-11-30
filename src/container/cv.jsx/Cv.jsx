@@ -30,6 +30,7 @@ export function Cv() {
               animateIn="animate__fadeInRight"
               animateOnce={true}
             >
+              <p className="cv-date">{data.statut}</p>
               <p className="cv-date">{data.date}</p>
               <p className="front-titre"> MISSIONS : </p>
               <li>{data.li1}</li>

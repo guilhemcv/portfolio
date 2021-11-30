@@ -3,6 +3,7 @@ import proactivity from "../assets/images/proactivity.png";
 import organisation from "../assets/images/organisation.png";
 import autonomie from "../assets/images/autonomie.png";
 import ecoute from "../assets/images/ecoute.png";
+import creativite from "../assets/images/creativite.png";
 
 
 const Softskill = [
@@ -30,6 +31,11 @@ const Softskill = [
     id: 5,
     image: ecoute,
     texte:"Sens de l'écoute"
+    },
+    {
+    id: 5,
+    image: creativite,
+    texte:"Créativité"
     }
             
 ]

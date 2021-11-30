@@ -13,16 +13,14 @@ const portfoliodata = [
     image: hackathon,
     lien: "https://wildvibes.netlify.app/",
     description:
-      "Hackathon réalisé en 36h sur le thème de la musique (projet vainqueur). En partant du postulat que les personnes sourdes ou malentendantes ne pouvaient pas écouter de musique, nous avons développé une application permettant de ressentir la musique par les vibrations du téléphone. A cause des bridages des terminaux IOS, l'application n'est disponible que pour les appareils android.",
+      "Hackathon réalisé en 36h sur le thème de la musique (projet vainqueur). En partant du postulat que les personnes sourdes ou malentendantes ne pouvaient pas écouter de musique, nous avons développé une application permettant de ressentir la musique par les vibrations du téléphone. Du fait du bridage des terminaux IOS, l'application n'est disponible que pour les appareils android.",
   },
   {
     image: panam,
     lien: "https://guilhemcv.github.io/panam-web/",
     description:
-      "Premier projet, après 3 semaines de formation. Site statique en HTML, choix du thème libre",
+      "Premier projet, après 3 semaines de formation. Site statique en HTML, choix du thème libre.",
   }
 ];
 
 export default portfoliodata;
-
-

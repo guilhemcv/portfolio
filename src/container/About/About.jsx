@@ -16,6 +16,7 @@ import linkedin from '../../assets/images/linkedin.png';
 import node from '../../assets/images/node.png';
 import notion from '../../assets/images/notion.png';
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
+import cecrl from "../../assets/images/cecrl.png";
 
 export function About() {
   return (
@@ -153,6 +154,23 @@ export function About() {
                 />
               </span>
               <img width="50px" src={notion} alt={notion} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
+              <p className="text-skill">Anglais <br/> CECRL niveau B2</p>
+              <span>
+                <CircleProgress
+                  percentage={95}
+                  strokeWidth={8}
+                  fontColor="white"
+                  fontFamily="roboto"
+                  fontSize="15px"
+                  primaryColor={['#253F9E', '#4955A3']}
+                  width="100"
+                />
+              </span>
+              <img width="50px" src={cecrl} alt={cecrl} />
             </div>
           </ScrollAnimation>
         </div>
