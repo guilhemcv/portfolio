@@ -121,7 +121,9 @@ export function About() {
         </div>
       </div>
       <div className="about-bas">
+      <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
         <p className="softskills3">Un mot sur moi</p>
+        </ScrollAnimation>
         <div className="photo-descri">
           <span className="parallax">
           <Parallax
