@@ -30,10 +30,11 @@ function Burger() {
               <Link to="/cv" onClick={handleIsChecked}>Mon CV</Link>
             </li>
             <li>
+              <Link to="/portfolio" onClick={handleIsChecked}>Mon Portfolio</Link>
+            </li>
+            <li>
               <Link to="/contact" onClick={handleIsChecked}>Me contacter</Link>
             </li>
-            <li>Mon Portfolio</li>
-            <li>Contact</li>
           </ul>
         </div>
       </nav>
