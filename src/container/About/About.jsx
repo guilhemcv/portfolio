@@ -158,7 +158,7 @@ export function About() {
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">Anglais <br/> CECRL niveau B2</p>
+              <p className="text-skill">Anglais</p>
               <span>
                 <CircleProgress
                   percentage={95}
