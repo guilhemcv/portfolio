@@ -82,7 +82,7 @@ height: 40px;
   }
   .cookies {
     height: 100px;
-    margin: 200px auto;
+    margin-top: 180px;
     margin-left: 20px;
   }
   .butonCookie {
@@ -113,6 +113,7 @@ height: 40px;
   }
   .divbuton {
     height: 25px;
+    padding-bottom: 10px;
   }
 }
 
