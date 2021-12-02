@@ -1,21 +1,28 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import CookieConsent from 'react-cookie-consent';
 import './Accueil.css';
 
 export function Accueil() {
-  
-    const redirect = useNavigate();
+  const redirect = useNavigate();
 
   return (
     <div>
       <div className="accueil">
         <p id="head1" className="header tracking-in-expand-fwd">
-          Hello ! <br /><br /> Je m'appelle Guilhem SEYVET
+          Hello ! <br />
+          <br /> Je m'appelle Guilhem SEYVET
         </p>
         <p id="head2" className="header tracking-in-expand-fwd2">
           Je suis développeur web full-stack
         </p>
-        <button type="button" className="button-accueil text-focus-in" onClick={() => redirect("/about")}>Continuer</button>
+        <button
+          type="button"
+          className="button-accueil text-focus-in"
+          onClick={() => redirect('/about')}
+        >
+          Continuer
+        </button>
         <div class="light x1"></div>
         <div class="light x2"></div>
         <div class="light x3"></div>
@@ -25,6 +32,23 @@ export function Accueil() {
         <div class="light x7"></div>
         <div class="light x8"></div>
         <div class="light x9"></div>
+      </div>
+      <div className="cookies">
+      <CookieConsent
+        buttonClasses="butonCookie"
+        declineButtonClasses="btnRefuse"
+        containerClasses="cookie"
+        overlayClasses="overlay"
+        contentClasses="text-cookie"
+        buttonText={"J'accepte"}
+        disableStyles={true}
+        enableDeclineButton
+        buttonWrapperClasses="divbuton"
+        declineButtonText={'Je refuse'}
+      >
+        🍪 Ce site utilise des cookies pour améliorer l'experience de
+        l'utilisateur.
+      </CookieConsent>
       </div>
     </div>
   );
