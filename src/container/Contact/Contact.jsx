@@ -4,17 +4,23 @@ import { useForm, ValidationError } from '@formspree/react';
 import github from '../../assets/images/github.png';
 import linkedin from '../../assets/images/linkedin.png';
 import thanks from '../../assets/images/thank-you.png';
- function Contact() {
+function Contact() {
   const [state, handleSubmit] = useForm('xgerqakg');
   if (state.succeeded) {
-    return <div className="thankyou">
-      <p className="thanks">Merci pour votre message !</p>
-      <img src={thanks} alt={thanks} width="100px"/>
-    </div>
+    return (
+      <div className="thankyou">
+        <p className="thanks">Merci pour votre message !</p>
+        <img src={thanks} alt={thanks} width="100px" />
+      </div>
+    );
   }
   return (
     <div className="contact">
       <form onSubmit={handleSubmit}>
+        <label htmlFor="nom">Nom :</label>
+        <input id="nom" type="nom" name="nom" />
+        <label htmlFor="prenom">Prénom : </label>
+        <input id="prenom" type="prenom" name="prenom" />
         <label htmlFor="email">Adresse Mail :</label>
         <input id="email" type="email" name="email" />
         <label htmlFor="phone">Téléphone :</label>
@@ -39,14 +45,16 @@ import thanks from '../../assets/images/thank-you.png';
         <a
           className="link-reseau"
           href="https://www.linkedin.com/in/guilhem-seyvet/"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           <img className="logo-reseau" src={linkedin} alt={linkedin} />
         </a>
         <a
           className="link-reseau"
           href="https://github.com/guilhemcv"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           <img className="logo-reseau1" src={github} alt={github} />
         </a>
