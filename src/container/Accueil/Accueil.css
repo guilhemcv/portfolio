@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
+.butonCookie {
+  background: #11ffee00;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btnRefuse {
+  background: #11ffee00;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cookie {
+  width: 300px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #424854;
+}
+
+.text-cookie {
+  height: 60px;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  color: white;
+}
+
+.cookies {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.divbuton {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 200px;
+  justify-content: space-around;
+}
+
 
 
 .button-accueil{
@@ -30,6 +73,46 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     font-size: 20px;
     width: 200px;
 height: 40px;
+  }
+  .cookie {
+    width: 200px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #424854;
+  }
+  .cookies {
+    height: 100px;
+    margin: 200px auto;
+    margin-left: 20px;
+  }
+  .butonCookie {
+    background: #11ffee00;
+    border: 1px solid white;
+    color: white;
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin: 0;
+  }
+  
+  .btnRefuse {
+    background: #11ffee00;
+    border: 1px solid white;
+    color: white;
+    font-size: 10px;
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 0;
+  }
+  .text-cookie {
+    font-size: 10px;
+    padding: 20px;
+    height: 25px;
+  }
+  .divbuton {
+    height: 25px;
   }
 }
 
