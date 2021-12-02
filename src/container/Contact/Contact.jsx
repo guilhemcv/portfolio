@@ -60,6 +60,12 @@ function Contact() {
         </a>
       </span>
       <p className="phone">Téléphone : 06 66 15 46 39</p>
+      <div className="copyright">
+        <p className="copy">Copyright</p>
+        <a href="mentions.html" target="_blank">
+          Mentions Légales
+        </a>
+      </div>
     </div>
   );
 }

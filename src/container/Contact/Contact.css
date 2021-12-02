@@ -82,3 +82,14 @@ input, textarea {
   font-family: 'Roboto', sans-serif;
   padding: 5px;
 }
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy {
+  margin-right: 30px;
+  color: white;
+}
