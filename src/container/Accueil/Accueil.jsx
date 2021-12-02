@@ -4,28 +4,6 @@ import CookieConsent from 'react-cookie-consent';
 import './Accueil.css';
 
 export function Accueil() {
-  const cookieStyle = {
-    width: '300px',
-    display: 'flex',
-    justifyContent: 'center',
-    margin: '10px',
-    fontFamily: 'roboto',
-    background: '#424854',
-  };
-  const boutonStyle = {
-    background: '#11ffee00',
-    border: '1px solid white',
-    color: 'white',
-    borderRadius: '5px',
-  };
-
-  const declineBouton = {
-    background: '#11ffee00',
-    border: '1px solid white',
-    color: 'white',
-    borderRadius: '5px',
-    float: 'right',
-  };
   const redirect = useNavigate();
 
   return (
