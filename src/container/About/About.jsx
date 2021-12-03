@@ -16,7 +16,7 @@ import linkedin from '../../assets/images/linkedin.png';
 import node from '../../assets/images/node.png';
 import notion from '../../assets/images/notion.png';
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-import cecrl from "../../assets/images/cecrl.png";
+import cecrl from '../../assets/images/cecrl.png';
 
 export function About() {
   return (
@@ -176,20 +176,20 @@ export function About() {
         </div>
       </div>
       <div className="about-bas">
-      <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
-        <p className="softskills3">Un mot sur moi</p>
+        <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+          <p className="softskills3">Un mot sur moi</p>
         </ScrollAnimation>
         <div className="photo-descri">
           <span className="parallax">
-          <Parallax
-            bgImage={guilhem}
-            strength={200}
-            style={{
-              height: "100%",
-              width: "100%",
-              paddingTop: '60px',
-            }}
-          />
+            <Parallax
+              bgImage={guilhem}
+              strength={200}
+              style={{
+                height: '100%',
+                width: '100%',
+                paddingTop: '60px',
+              }}
+            />
           </span>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="pres-reseau">
@@ -201,20 +201,23 @@ export function About() {
                 toutes les connaissances techniques requises et de les appliquer
                 dans ce cadre, sur des projets professionnels concluants. Je
                 recherche à présent à mettre mes nouvelles compétences et toute
-                mon expérience au service d'une équipe.
+                mon expérience au service d'une équipe. Je cherche un stage de 4
+                mois ou plus à compter du 14 Février 2022.
               </p>
               <span className="reseau">
                 <a
                   className="link-reseau"
                   href="https://www.linkedin.com/in/guilhem-seyvet/"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <img className="logo-reseau" src={linkedin} alt={linkedin} />
                 </a>
                 <a
                   className="link-reseau"
                   href="https://github.com/guilhemcv"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <img className="logo-reseau1" src={github} alt={github} />
                 </a>
