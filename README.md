@@ -20,9 +20,9 @@ Portfolio dynamique réalisé entièrement en React.
 
 
 ## 🚀 About Me
-My name is Guilhem SEYVET and i am a Passionate Web Developer 🚀   from Nantes, France.
+My name is Guilhem SEYVET and i am a Passionate Web Developer 🚀 from Nantes, France.
 
-After 8 years as a travel planner, i have decided to focus on my passion and learn web development. I'm currently a student at Wild Code School, Nantes and I am specializing in Javascript / React.
+After 8 years as a travel planner, i have decided to focus on my passion and learn web development. I'm currently a student at Wild Code School, Nantes and I am specializing in Javascript / React. This is my personnal portfolio made from scratch with Reactjs.
 
 
 [![Linkedin Badge](https://img.shields.io/badge/-guilhem_seyvet-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilhem-seyvet/)](https://www.linkedin.com/in/guilhem-seyvet/)
