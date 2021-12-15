@@ -28,13 +28,13 @@ const portfoliofrontend = [
     lien: "https://guilhemcv.github.io/galerie/galerie.html",
     description:
       "Après un mois de formation : objectif : réaliser un template de catalogue en ligne en CSS et Javascript.",
-  },
-  {
+  }
+  /* {
     image: galerie,
     lien: "https://guilhemcv.github.io/galerie-photo/",
     description:
       "Après un mois de formation, objectif : réaliser une petite galerie photo en Javascript.",
-  }
+  } */
 ];
 
 export default portfoliofrontend;
