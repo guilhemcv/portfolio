@@ -24,7 +24,7 @@ const portfoliofrontend = [
   },
   {
     image: boutique,
-    lien: "https://guilhemcv.github.io/galerie/galerie.html",
+    lien: "https://guilhemcv.github.io/price-table/",
     description:
       "Après un mois de formation : objectif : réaliser un template de catalogue en ligne en CSS et Javascript.",
   }
