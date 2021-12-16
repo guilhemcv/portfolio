@@ -1,5 +1,4 @@
 import mobile from "../assets/images/mobile.png";
-import galerie from "../assets/images/galerie.png";
 import media from "../assets/images/media.png";
 import abonnement from "../assets/images/abonnement.png";
 import boutique from "../assets/images/boutique.png";
