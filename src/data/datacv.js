@@ -12,7 +12,7 @@ const DataCv = [
     logo: logowild,
     li1: 'Assister le formateur sur les cours',
     li2: 'Aider les étudiants pendant la formation',
-    li3: 'Projet Full Stack en fil rouge',
+    li3: 'Projets Full Stack en fil rouge',
     color : "#F47173"
   },
   {
