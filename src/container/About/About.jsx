@@ -4,7 +4,6 @@ import 'animate.css/animate.min.css';
 import './About.css';
 import Polygon from '../../components/Polygon/Polygon';
 import Softskill from '../../data/softskill';
-import { CircleProgress } from 'react-gradient-progress';
 import javascript from '../../assets/images/javascript.png';
 import react from '../../assets/images/react.png';
 import html from '../../assets/images/html.png';
@@ -16,7 +15,9 @@ import linkedin from '../../assets/images/linkedin.png';
 import node from '../../assets/images/node.png';
 import notion from '../../assets/images/notion.png';
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-import cecrl from '../../assets/images/cecrl.png';
+import css from '../../assets/images/css.png';
+import figma from '../../assets/images/figma.png';
+import api from '../../assets/images/api.png';
 
 export function About() {
   return (
@@ -40,137 +41,73 @@ export function About() {
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
               <p className="text-skill">Javascript</p>
-              <span>
-                <CircleProgress
-                  percentage={75}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#F3F9A7', '#CAC531']}
-                  width="100"
-                />
-              </span>
               <img width="50px" src={javascript} alt={javascript} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
               <p className="text-skill">React</p>
-              <span>
-                <CircleProgress
-                  percentage={85}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#56CCF2', '#2F80ED']}
-                  width="100"
-                />
-              </span>
               <img width="50px" src={react} alt={react} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">NodeJS / ExpressJS</p>
-              <span>
-                <CircleProgress
-                  percentage={70}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#77B263', '#3E863E']}
-                  width="100"
-                />
-              </span>
+              <p className="text-skill">NodeJS</p>
               <img width="50px" src={node} alt={node} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">HTML / CSS</p>
-              <span>
-                <CircleProgress
-                  percentage={95}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#f7b733', '#fc4a1a']}
-                  width="100"
-                />
-              </span>
+              <p className="text-skill">ExpressJS</p>
+              <img width="50px" src={node} alt={node} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
+              <p className="text-skill">HTML</p>
               <img width="50px" src={html} alt={html} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
+              <p className="text-skill">CSS</p>
+              <img width="50px" src={css} alt={css} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
               <p className="text-skill">MySQL</p>
-              <span>
-                <CircleProgress
-                  percentage={70}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#D3CCE3', '#E9E4F0']}
-                  width="100"
-                />
-              </span>
               <img width="50px" src={mysql} alt={mysql} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">Git / Github</p>
-              <span>
-                <CircleProgress
-                  percentage={90}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#FF416C', '#FF4B2B']}
-                  width="100"
-                />
-              </span>
+              <p className="text-skill">Rest Api</p>
+              <img width="50px" src={api} alt={api} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
+              <p className="text-skill">Git</p>
               <img width="50px" src={git} alt={git} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">Notion</p>
-              <span>
-                <CircleProgress
-                  percentage={95}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['white', 'white']}
-                  width="100"
-                />
-              </span>
-              <img width="50px" src={notion} alt={notion} />
+              <p className="text-skill">Github</p>
+              <img width="50px" src={github} alt={github} />
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="skills-card">
-              <p className="text-skill">Anglais</p>
-              <span>
-                <CircleProgress
-                  percentage={95}
-                  strokeWidth={8}
-                  fontColor="white"
-                  fontFamily="roboto"
-                  fontSize="15px"
-                  primaryColor={['#253F9E', '#4955A3']}
-                  width="100"
-                />
-              </span>
-              <img width="50px" src={cecrl} alt={cecrl} />
+              <p className="text-skill">Figma</p>
+              <img width="50px" src={figma} alt={figma} />
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
+            <div className="skills-card">
+              <p className="text-skill">Notion</p>
+              <img width="50px" src={notion} alt={notion} />
             </div>
           </ScrollAnimation>
         </div>
