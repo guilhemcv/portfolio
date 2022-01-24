@@ -1,10 +1,22 @@
 import logoRichou from "../assets/images/logorichou.png";
 import logoToys from "../assets/images/toys.png";
 import logoLeclerc from "../assets/images/leclerc.png";
+import logowild from "../assets/images/wild.png";
 
 const DataCv = [
   {
-    date: '2014 - Maintenant',
+    date: 'Fév 2022 - Jul 2022',
+    entreprise: 'Wild Code School',
+    lieu: 'A distance',
+    statut: 'assistant formateur web dev React (stage)',
+    logo: logowild,
+    li1: 'Assister le formateur sur les cours',
+    li2: 'Aider les étudiants pendant la formation',
+    li3: 'Projet Full Stack en fil rouge',
+    color : "#F47173"
+  },
+  {
+    date: '2014 - 2021',
     entreprise: 'Richou Voyages',
     lieu: 'Cholet',
     statut: 'Conseiller en voyages',
