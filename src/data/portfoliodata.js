@@ -1,8 +1,14 @@
 import swiper from '../assets/images/swiper.png';
 import hackathon from "../assets/images/hackathon.png";
 import panam from "../assets/images/panam.png";
+import hackaton2 from "../assets/images/hackathon2.jpg";
 
 const portfoliodata = [
+  {
+    image: hackaton2,
+    lien: "https://lesroismerlin-manomano.netlify.app/",
+    description: "Deuxième Hackathon en collaboration avec Mano Mano. Objectif, réaliser une amélioration d'une partie du site ou une feature liée aux services du site. Nous avons développé une fonctionnalité de mise en relation de particulier, et une fonctionnalité pour proposer des tutoriels aux utilisateurs.",
+  },
   {
     image: swiper,
     lien: "https://swiper-nantes.netlify.app/",
