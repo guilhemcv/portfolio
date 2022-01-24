@@ -130,16 +130,14 @@ export function About() {
           </span>
           <ScrollAnimation animateIn="animate__zoomIn" animateOnce={true}>
             <div className="pres-reseau">
-              <p className="presentation">
+              <p className="presentation"><br/><br/>
                 Après plusieurs années d'expérience dans le commerce et en
                 agence de voyages, j'ai souhaité me reconvertir dans la création
                 et la conception de sites internet. Une formation certifiante
                 ainsi qu'une grande volonté m'ont permis d'acquérir rapidement
                 toutes les connaissances techniques requises et de les appliquer
-                dans ce cadre, sur des projets professionnels concluants. Je
-                recherche à présent à mettre mes nouvelles compétences et toute
-                mon expérience au service d'une équipe. Je cherche un stage de 4
-                mois ou plus à compter du 14 Février 2022.
+                dans ce cadre, sur des projets professionnels concluants. <br/> En complément de ma formation, un stage de 5 mois à partir de Février 2022 en tant qu'assistant formateur au sein de la Wild Code School va renforcer mes connaissances et développer ma pédagogie. <br/><br/>J'aimerais à présent mettre mes nouvelles compétences et toute
+                mon expérience au service d'une équipe et je cherche donc un poste en tant que développeur web.
               </p>
               <span className="reseau">
                 <a
