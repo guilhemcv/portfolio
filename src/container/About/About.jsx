@@ -2,6 +2,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-parallax';
 import 'animate.css/animate.min.css';
 import './About.css';
+import '../Contact/Contact.css';
 import Polygon from '../../components/Polygon/Polygon';
 import Softskill from '../../data/softskill';
 import javascript from '../../assets/images/javascript.png';
@@ -161,6 +162,14 @@ export function About() {
           </ScrollAnimation>
         </div>
         <ScrollToTop />
+        <div className="copyright">
+        <p className="copy">
+          Copyright © 2021 - 2022 / Guilhem Seyvet - Développeur web{' '}
+        </p>
+        <a href="mentions.html" target="_blank">
+          Mentions Légales
+        </a>
+      </div>
       </div>
     </div>
   );

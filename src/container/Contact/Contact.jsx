@@ -61,7 +61,7 @@ function Contact() {
       </span>
       <p className="phone">Téléphone : 06 66 15 46 39</p>
       <div className="copyright">
-        <p className="copy">Copyright</p>
+        <p className="copy">Copyright © 2021 - 2022 / Guilhem Seyvet - Développeur web </p>
         <a href="mentions.html" target="_blank">
           Mentions Légales
         </a>

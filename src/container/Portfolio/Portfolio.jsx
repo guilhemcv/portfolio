@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import '../Portfolio/Portfolio.css';
 import portfoliodata from '../../data/portfoliodata';
 import ScrollAnimation from 'react-animate-on-scroll';
 import portfoliofrontend from '../../data/portfoliofrontend';
@@ -66,6 +67,14 @@ function Portfolio() {
         </ScrollAnimation>
       ))}
       <ScrollToTop />
+      <div className="copyright">
+        <p className="copy">
+          Copyright © 2021 - 2022 / Guilhem Seyvet - Développeur web{' '}
+        </p>
+        <a href="mentions.html" target="_blank">
+          Mentions Légales
+        </a>
+      </div>
     </div>
   );
 }
