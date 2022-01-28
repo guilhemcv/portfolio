@@ -8,7 +8,7 @@ const DataCv = [
     date: 'Fév 2022 - Jul 2022',
     entreprise: 'Wild Code School',
     lieu: 'A distance',
-    statut: 'assistant formateur web dev React (stage)',
+    statut: 'Assistant formateur javascript (stage)',
     logo: logowild,
     li1: 'Assister le formateur sur les cours',
     li2: 'Aider les étudiants pendant la formation',
