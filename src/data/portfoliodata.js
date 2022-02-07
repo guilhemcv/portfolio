@@ -2,8 +2,24 @@ import swiper from '../assets/images/swiper.png';
 import hackathon from '../assets/images/hackathon.png';
 import panam from '../assets/images/panam.png';
 import hackaton2 from '../assets/images/hackathon2.jpg';
+import vinoperso from '../assets/images/vinoperso.png';
 
 const portfoliodata = [
+  {
+    image: vinoperso,
+    lien: 'https://cave-a-vin.netlify.app/',
+    description:
+      "Dernier checkpoint de la formation. Objectif : réaliser un projet personnel full-stack avec thème libre en 48H.",
+    github: 'https://github.com/guilhemcv/checkpoint4-front',
+    duree: '48h', 
+    personnes: 1,
+    date: "Fev 2022",
+    technos1: "ReactJS",
+    technos2:  "Express / Node",
+    technos3: "Mysql",
+    technos4:  "CSS",
+    technos5:  "Github",
+  },
   {
     image: hackaton2,
     lien: 'https://lesroismerlin-manomano.netlify.app/',

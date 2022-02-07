@@ -26,7 +26,7 @@ function Portfolio() {
             <p className="text-portfolio">{data.description}</p>
             <p className="text-portfolio">
               Projet réalisé en {data.duree} dans une équipe de {data.personnes}{' '}
-              personnes.
+              personne(s).
             </p>
             <ul className="technoul">
               <li className={data.technos1 ? "techno" : "techno0"}>{data.technos1}</li>
