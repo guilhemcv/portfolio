@@ -9,7 +9,7 @@ const portfoliodata = [
     image: vinoperso,
     lien: 'https://cave-a-vin.netlify.app/',
     description:
-      "Dernier checkpoint de la formation. Objectif : réaliser un projet personnel full-stack avec thème libre en 48H.",
+      "Dernier checkpoint de la formation. Objectif : réaliser un projet personnel full-stack avec thème libre en 48H. (pour des raisons de sécurité, les routes modifier et ajouter ont été desactivées)",
     github: 'https://github.com/guilhemcv/checkpoint4-front',
     duree: '48h', 
     personnes: 1,
