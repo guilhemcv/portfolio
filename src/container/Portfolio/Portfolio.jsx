@@ -11,7 +11,7 @@ function Portfolio() {
   return (
     <div>
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-        <p className="titre-portfolio">Projets personnels et professionnels</p>
+        <h1 className="titre-portfolio">Projets personnels et professionnels</h1>
       </ScrollAnimation>
       {portfoliopro.map((data) => (
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
@@ -46,7 +46,7 @@ function Portfolio() {
         </ScrollAnimation>
       ))}
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-        <p className="titre-portfolio">Projets avec la Wild Code School</p>
+        <h2 className="titre-portfolio">Projets avec la Wild Code School</h2>
       </ScrollAnimation>
       {portfoliodata.map((data) => (
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
@@ -86,7 +86,7 @@ function Portfolio() {
         </ScrollAnimation>
       ))}
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-        <p className="titre-portfolio">Side Projects Wild Code School</p>
+        <h3 className="titre-portfolio">Side Projects Wild Code School</h3>
       </ScrollAnimation>
       {portfoliofrontend.map((data) => (
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>

@@ -9,13 +9,13 @@ export function Accueil() {
   return (
     <div>
       <div className="accueil">
-        <p id="head1" className="header tracking-in-expand-fwd">
+        <h1 id="head1" className="header tracking-in-expand-fwd">
           Hello ! <br />
           <br /> Je m'appelle Guilhem SEYVET
-        </p>
-        <p id="head2" className="header tracking-in-expand-fwd2">
+        </h1>
+        <h2 id="head2" className="header tracking-in-expand-fwd2">
           Je suis développeur web full-stack
-        </p>
+        </h2>
         <button
           type="button"
           className="button-accueil text-focus-in"

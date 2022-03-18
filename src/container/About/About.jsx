@@ -25,8 +25,8 @@ export function About() {
     <div className="about">
       <div className="about-haut">
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-          <p className="about-titre">A PROPOS</p>
-          <p className="softskills">Soft Skills</p>
+          <h1 className="about-titre">A PROPOS</h1>
+          <h2 className="softskills">Soft Skills</h2>
         </ScrollAnimation>
         <div className="skills">
           {Softskill.map((skill) => (

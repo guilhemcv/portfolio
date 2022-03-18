@@ -10,7 +10,7 @@ export function Cv() {
   return (
     <div className="cv">
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-        <p className="titre-cv2">EXPERIENCES PROFESSIONNELLES :</p>
+        <h1 className="titre-cv2">EXPERIENCES PROFESSIONNELLES :</h1>
       </ScrollAnimation>
       <div className="curriculum">
         {DataCv.map((data) => (
