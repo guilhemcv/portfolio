@@ -11,9 +11,7 @@ export const Services = () => {
         <h1 className="titre-services">Mes services</h1>
       <ScrollAnimation animateIn="animate__fadeInLeft" animateOnce={true}>
         <div>
-          <h2 className="sous-titre-services">
-            Dans le cadre de votre projet, je peux réaliser votre application
-            web de A à Z :
+          <h2 className="sous-titre-services">Situé entre Nantes, Cholet et la Roche sur Yon, je peux réaliser votre application web de A à Z en accord avec votre projet :
           </h2>
           <div className="tab-services">
             <ul className="listing">
