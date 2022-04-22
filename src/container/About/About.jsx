@@ -6,7 +6,6 @@ import './About.css';
 import '../Contact/Contact.css';
 import Polygon from '../../components/Polygon/Polygon';
 import Softskill from '../../data/softskill';
-import guilhem from '../../assets/images/portrait.jpg';
 import portrait from '../../assets/images/portrait2.png'
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import linkedin from '../../assets/images/linkedin.png';
