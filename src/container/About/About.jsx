@@ -7,6 +7,7 @@ import '../Contact/Contact.css';
 import Polygon from '../../components/Polygon/Polygon';
 import Softskill from '../../data/softskill';
 import guilhem from '../../assets/images/portrait.jpg';
+import portrait from '../../assets/images/portrait2.png'
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import linkedin from '../../assets/images/linkedin.png';
 import github from '../../assets/images/github.png';
@@ -49,12 +50,12 @@ export function About() {
         <div className="photo-descri">
           <span className="parallax">
             <Parallax
-              bgImage={guilhem}
+              bgImage={portrait}
               strength={200}
               style={{
-                height: '100%',
+                height: '80%',
                 width: '100%',
-                paddingTop: '60px',
+                paddingTop: '120px',
               }}
             />
           </span>
