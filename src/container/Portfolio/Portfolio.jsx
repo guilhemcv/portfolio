@@ -31,6 +31,7 @@ function Portfolio() {
               <li className={data.technos4 ? "techno" : "techno0"}>{data.technos4}</li>
               <li className={data.technos5 ? "techno" : "techno0"}>{data.technos5 ? data.technos5 : ""}</li>
             </ul>
+            {data.github ? 
             <p className="text-portfolio2">
               Repo Github :{' '}
               <a
@@ -42,6 +43,7 @@ function Portfolio() {
                 Visiter
               </a>
             </p>
+            : ""}
           </div>
         </ScrollAnimation>
       ))}
