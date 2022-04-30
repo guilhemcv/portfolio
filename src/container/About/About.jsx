@@ -69,9 +69,8 @@ export function About() {
                 ainsi qu'une grande volonté m'ont permis d'acquérir rapidement
                 toutes les connaissances techniques requises et de les appliquer
                 dans ce cadre, sur des projets professionnels concluants. <br />{' '}
-                En complément de ma formation, un stage de 5 mois à partir de
-                Février 2022 en tant qu'assistant formateur au sein de la Wild
-                Code School va renforcer mes connaissances et développer ma
+                En complément de ma formation, un stage en tant qu'assistant formateur au sein de la Wild
+                Code School a renforcé mes connaissances et développé ma
                 pédagogie. <br />
                 <br />
                 J'aimerais à présent mettre mes nouvelles compétences et toute

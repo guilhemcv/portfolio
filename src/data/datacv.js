@@ -5,7 +5,7 @@ import logowild from "../assets/images/wild.png";
 
 const DataCv = [
   {
-    date: 'Fév 2022 - Jul 2022',
+    date: 'Fév 2022',
     entreprise: 'Wild Code School',
     lieu: 'A distance',
     statut: 'Assistant formateur javascript (stage)',
