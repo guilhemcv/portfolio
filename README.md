@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio dynamique réalisé entièrement en React.
+This is my home made react portfolio !
 
 ## Authors
 
