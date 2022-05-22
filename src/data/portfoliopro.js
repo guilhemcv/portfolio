@@ -1,7 +1,18 @@
 import concept from '../assets/images/concept.png';
 import seyweb from '../assets/images/seyweb.png';
+import solar from '../assets/images/solar-system.png'
 
 const portfoliopro = [
+  {
+    image: solar,
+    lien: 'https://solar-system-threejs-guilhemcv.vercel.app/',
+    description:
+      'Découverte de la librairie 3D Three.js et création de vues interactives des planètes du système solaire.',
+    github: 'https://github.com/guilhemcv/Solar-System-ThreeJS',
+    technos1: 'React',
+    technos2: 'Three.js',
+    technos3: 'CSS',
+  },
   {
     image: seyweb,
     lien: 'https://www.seyweb.fr',
