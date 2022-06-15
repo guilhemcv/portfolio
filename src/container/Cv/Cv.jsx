@@ -37,9 +37,11 @@ export function Cv() {
                 <p className="cv-date">{data.statut}</p>
                 <p className="cv-date">{data.date}</p>
                 <p className="front-titre"> MISSIONS : </p>
+                <ul>
                 <li>{data.li1}</li>
                 <li>{data.li2}</li>
                 <li>{data.li3}</li>
+                </ul>
               </ScrollAnimation>
             </div>
             <div className="separate"></div>

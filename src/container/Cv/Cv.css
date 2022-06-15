@@ -84,10 +84,14 @@
   margin: 20px auto;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style-type: none;
   text-align: center;
-  margin: 10px;
+  margin: 10px auto;
   width: 90%;
   margin : 0 auto;
   color: white;
