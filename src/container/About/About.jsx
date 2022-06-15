@@ -1,3 +1,4 @@
+import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-parallax';
 import { hardSkills } from '../../data/hardSkills';
