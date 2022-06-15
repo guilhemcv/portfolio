@@ -16,7 +16,7 @@ function Portfolio() {
       {portfoliopro.map((data) => (
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
           <div className="portfolio-card">
-            <a href={data.lien} target="_blank" rel="noreferrer">
+            <a href={data.lien} target="_blank" rel="noopener noreferrer">
               <img
                 className="img-portfolio"
                 src={data.image}
@@ -38,7 +38,7 @@ function Portfolio() {
                 className="linkgithub"
                 href={data.github}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Visiter
               </a>
@@ -53,7 +53,7 @@ function Portfolio() {
       {portfoliodata.map((data) => (
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
           <div className="portfolio-card">
-            <a href={data.lien} target="_blank" rel="noreferrer">
+            <a href={data.lien} target="_blank" rel="noopener noreferrer">
               <img
                 className="img-portfolio"
                 src={data.image}
@@ -79,7 +79,7 @@ function Portfolio() {
                 className="linkgithub"
                 href={data.github}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Visiter
               </a>
@@ -93,7 +93,7 @@ function Portfolio() {
       {portfoliofrontend.map((data) => (
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
           <div className="portfolio-card">
-            <a href={data.lien} target="_blank" rel="noreferrer">
+            <a href={data.lien} target="_blank" rel="noopener noreferrer">
               <img
                 className="img-portfolio"
                 src={data.image}
@@ -109,7 +109,7 @@ function Portfolio() {
         <p className="copy">
           Copyright © 2021 - 2022 / Guilhem Seyvet - Développeur web{' '}
         </p>
-        <a href="mentions.html" target="_blank">
+        <a href="mentions.html" target="_blank" rel="noopener noreferrer" >
           Mentions Légales
         </a>
       </div>

@@ -46,7 +46,7 @@ export function Accueil() {
         buttonWrapperClasses="divbuton"
         declineButtonText={'Je refuse'}
       >
-        🍪 Ce site utilise des cookies pour améliorer l'experience de
+        <span role="img" arial-label="cookie">🍪</span> Ce site utilise des cookies pour améliorer l'experience de
         l'utilisateur.
       </CookieConsent>
       </div>

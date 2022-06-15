@@ -46,7 +46,7 @@ function Contact() {
           className="link-reseau"
           href="https://www.linkedin.com/in/guilhem-seyvet/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img className="logo-reseau" src={linkedin} alt={linkedin} />
         </a>
@@ -54,7 +54,7 @@ function Contact() {
           className="link-reseau"
           href="https://github.com/guilhemcv"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img className="logo-reseau1" src={github} alt={github} />
         </a>
