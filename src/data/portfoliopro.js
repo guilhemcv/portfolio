@@ -1,5 +1,4 @@
 import concept from '../assets/images/concept.png';
-import seyweb from '../assets/images/seyweb.png';
 import solar from '../assets/images/solar-system.png'
 import parc from '../assets/images/parc.png';
 
