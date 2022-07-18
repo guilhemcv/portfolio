@@ -1,8 +1,20 @@
 import concept from '../assets/images/concept.png';
 import seyweb from '../assets/images/seyweb.png';
 import solar from '../assets/images/solar-system.png'
+import parc from '../assets/images/parc.png';
 
 const portfoliopro = [
+  {
+    image: parc,
+    lien: 'https://trouve-ton-parc.vercel.app/',
+    description:
+      "Utilisation de l'API Google pour créer une carte interactive et collaborative des aires de jeux en France. Découverte de Supabase pour héberger les aires de jeux en ligne.",
+    github: 'https://github.com/guilhemcv/trouve-ton-parc',
+    technos1: 'React',
+    technos2: 'Google API',
+    technos3: 'Supabase',
+    technos4: 'Tailwind CSS',
+  },
   {
     image: solar,
     lien: 'https://solar-system-threejs-guilhemcv.vercel.app/',
