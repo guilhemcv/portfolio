@@ -26,14 +26,6 @@ const portfoliopro = [
     technos3: 'CSS',
   },
   {
-    image: seyweb,
-    lien: 'https://www.seyweb.fr',
-    description:
-      "Création d'un site vitrine pour une entreprise fictive sur Wordpress.",
-    technos1: 'Wordpress',
-    technos2: 'Elementor',
-  },
-  {
     image: concept,
     lien: 'https://pose-ton-concept.netlify.app/',
     description:
