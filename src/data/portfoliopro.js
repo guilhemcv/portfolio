@@ -1,8 +1,19 @@
 import concept from '../assets/images/concept.png';
 import solar from '../assets/images/solar-system.png'
 import parc from '../assets/images/parc.png';
+import popcorn from '../assets/images/popcorn.png';
 
 const portfoliopro = [
+  {
+    image: popcorn,
+    lien: 'https://popcorn-moment.netlify.app/',
+    description:
+      "Découverte de Vue.js à travers une app proposant de retrouver ses films et séries favoris, et d'en découvrir de nouveau.",
+    github: 'https://github.com/guilhemcv/vuejs-movies',
+    technos1: 'Vue.js',
+    technos2: 'Tailwind CSS',
+    technos3: 'The Movie DB API',
+  },
   {
     image: parc,
     lien: 'https://trouve-ton-parc.vercel.app/',
