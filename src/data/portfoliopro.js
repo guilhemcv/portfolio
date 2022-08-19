@@ -2,8 +2,20 @@ import concept from '../assets/images/concept.png';
 import solar from '../assets/images/solar-system.png'
 import parc from '../assets/images/parc.png';
 import popcorn from '../assets/images/popcorn.png';
+import care from '../assets/images/care.png';
 
 const portfoliopro = [
+  {
+    image: care,
+    lien: 'https://care-sante.vercel.app/',
+    description:
+      "Sur Care, vous aurez accès à un suivi santé comprenant le suivi du poids, de votre consommation d'eau et de votre sommeil.",
+    github: 'https://github.com/guilhemcv/tracking-sante',
+    technos1: 'Next.js',
+    technos2: 'Tailwind CSS',
+    technos3: 'Chart.js',
+    technos4: 'Supabase',
+  },
   {
     image: popcorn,
     lien: 'https://popcorn-moment.netlify.app/',
