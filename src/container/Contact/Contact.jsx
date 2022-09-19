@@ -59,7 +59,7 @@ function Contact() {
           <img className="logo-reseau1" src={github} alt={github} />
         </a>
       </span>
-      <p className="phone">Téléphone : 06 66 15 46 39</p>
+      <p className="phone">Téléphone : 06 10 14 42 33</p>
       <div className="copyright">
         <p className="copy">Copyright © 2021 - 2022 / Guilhem Seyvet - Développeur web </p>
         <a href="mentions.html" target="_blank">
